@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_575e0fd57cc4a0267b861628eb55c878 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_575e0fd57cc4a0267b861628eb55c878" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_575e0fd57cc4a0267b861628eb55c878 = L.map(
+                "map_575e0fd57cc4a0267b861628eb55c878",
+                {
+                    center: [52.232222, 21.008333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_40c9741cb5c215fccd3af0006b8cadc1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_40c9741cb5c215fccd3af0006b8cadc1.addTo(map_575e0fd57cc4a0267b861628eb55c878);
+        
+    
+            var marker_18753509bc710ed433b5bfc28e0701f0 = L.marker(
+                [52.292778, 21.116111],
+                {
+}
+            ).addTo(map_575e0fd57cc4a0267b861628eb55c878);
+        
+    
+        var popup_b83a54e9c223dd3459225ddbf9ec1dae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0acd878da81e75e0e97900e5e229b22c = $(`<div id="html_0acd878da81e75e0e97900e5e229b22c" style="width: 100.0%; height: 100.0%;"><h3><strong> Ząbki</strong></h3><br/> Julia (10)<img  src=https://www.wig.wat.edu.pl/index.php/component/joomgallery/image?view=image&format=raw&type=orig&id=1443 alt="Girl i na jacket" width = "500" height="600">)</div>`)[0];
+                popup_b83a54e9c223dd3459225ddbf9ec1dae.setContent(html_0acd878da81e75e0e97900e5e229b22c);
+            
+        
+
+        marker_18753509bc710ed433b5bfc28e0701f0.bindPopup(popup_b83a54e9c223dd3459225ddbf9ec1dae)
+        ;
+
+        
+    
+    
+            var marker_3102ad952756361d73cd8a18304f7872 = L.marker(
+                [53.406944, 23.5],
+                {
+}
+            ).addTo(map_575e0fd57cc4a0267b861628eb55c878);
+        
+    
+        var popup_a3adf752a62dc77c5828d1a2a94542bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef65806821bc88a9622651d7f41755a3 = $(`<div id="html_ef65806821bc88a9622651d7f41755a3" style="width: 100.0%; height: 100.0%;"><h3><strong> Sokółka</strong></h3><br/> Julia (20)<img  src=https://www.wig.wat.edu.pl/index.php/component/joomgallery/image?view=image&format=raw&type=orig&id=1443 alt="Girl i na jacket" width = "500" height="600">)</div>`)[0];
+                popup_a3adf752a62dc77c5828d1a2a94542bd.setContent(html_ef65806821bc88a9622651d7f41755a3);
+            
+        
+
+        marker_3102ad952756361d73cd8a18304f7872.bindPopup(popup_a3adf752a62dc77c5828d1a2a94542bd)
+        ;
+
+        
+    
+    
+            var marker_98efde2c5da22f3dc8f5cadedc5292cd = L.marker(
+                [52.232222, 21.008333],
+                {
+}
+            ).addTo(map_575e0fd57cc4a0267b861628eb55c878);
+        
+    
+        var popup_8f70c2396594a44b15d242cc1b68b87c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08c1f4207e90eaa72a6a9b689becae0f = $(`<div id="html_08c1f4207e90eaa72a6a9b689becae0f" style="width: 100.0%; height: 100.0%;"><h3><strong> Warszawa</strong></h3><br/> Klaudia (15)<img  src=https://www.wig.wat.edu.pl/index.php/component/joomgallery/image?view=image&format=raw&type=orig&id=1443 alt="Girl i na jacket" width = "500" height="600">)</div>`)[0];
+                popup_8f70c2396594a44b15d242cc1b68b87c.setContent(html_08c1f4207e90eaa72a6a9b689becae0f);
+            
+        
+
+        marker_98efde2c5da22f3dc8f5cadedc5292cd.bindPopup(popup_8f70c2396594a44b15d242cc1b68b87c)
+        ;
+
+        
+    
+    
+            var marker_928aa3ae7a1030a4475158c7a8e5cf1e = L.marker(
+                [53.486944, 18.756944],
+                {
+}
+            ).addTo(map_575e0fd57cc4a0267b861628eb55c878);
+        
+    
+        var popup_917e77bb760cdf33396736db8e143387 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbf010779b50e8356c4e0a47a3f40d56 = $(`<div id="html_fbf010779b50e8356c4e0a47a3f40d56" style="width: 100.0%; height: 100.0%;"><h3><strong> Grudziądz</strong></h3><br/> Marcin (1000)<img  src=https://www.wig.wat.edu.pl/index.php/component/joomgallery/image?view=image&format=raw&type=orig&id=1443 alt="Girl i na jacket" width = "500" height="600">)</div>`)[0];
+                popup_917e77bb760cdf33396736db8e143387.setContent(html_fbf010779b50e8356c4e0a47a3f40d56);
+            
+        
+
+        marker_928aa3ae7a1030a4475158c7a8e5cf1e.bindPopup(popup_917e77bb760cdf33396736db8e143387)
+        ;
+
+        
+    
+    
+            var marker_b522474746075462e2dc61e01bb52515 = L.marker(
+                [51.25, 22.566667],
+                {
+}
+            ).addTo(map_575e0fd57cc4a0267b861628eb55c878);
+        
+    
+        var popup_f141e4afdfdfceeaa5ee1e8edbf339e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01068492fcfe48c4ec7bde4cec778c91 = $(`<div id="html_01068492fcfe48c4ec7bde4cec778c91" style="width: 100.0%; height: 100.0%;"><h3><strong> Lublin</strong></h3><br/> Mateusz (100)<img  src=https://www.wig.wat.edu.pl/index.php/component/joomgallery/image?view=image&format=raw&type=orig&id=1443 alt="Girl i na jacket" width = "500" height="600">)</div>`)[0];
+                popup_f141e4afdfdfceeaa5ee1e8edbf339e8.setContent(html_01068492fcfe48c4ec7bde4cec778c91);
+            
+        
+
+        marker_b522474746075462e2dc61e01bb52515.bindPopup(popup_f141e4afdfdfceeaa5ee1e8edbf339e8)
+        ;
+
+        
+    
+</script>
+</html>
