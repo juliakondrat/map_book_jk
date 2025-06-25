@@ -60,7 +60,7 @@ def remove_user() -> None:
     users.pop(i)
     show_users()
 
-#fv fvksfdjmfk
+#fv fvksfdjmfksfdfsdfdssdf
 def edit_user() -> None:
     i = listbox_lista_obiektow.index(ACTIVE)
     name = users[i].name
